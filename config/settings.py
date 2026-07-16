@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-k%u)rot(r1wdat@1+%u63)@&@c7z8t6m)t(nmnh(r&qnt4h2u-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-django-project-ti9h.onrender.com', # अपना Render वाला डोमेन यहाँ जोड़ें
+    'localhost',
+    '127.0.0.1',]
 
 
 # Application definition

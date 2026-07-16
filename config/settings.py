@@ -127,5 +127,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
+    "https://your-vercel-project-name.vercel.app", # अपना Vercel URL यहां डालें
     "http://localhost:3000",
 ]
